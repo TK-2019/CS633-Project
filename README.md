@@ -14,10 +14,10 @@ The engine features two distinct I/O implementations to demonstrate performance 
 * **Global Reduction:** Efficiently aggregates local results to compute global statistics using `MPI_Reduce`.
 
 ## Project Structure
-* `src_seq.c`: Source code using Sequential I/O (Master read + Scatter).
-* `src_par.c`: Source code using Parallel I/O (MPI-IO).
+* `sequential_io.c`: Source code using Sequential I/O (Master read + Scatter).
+* `parallel_io.c`: Source code using Parallel I/O (MPI-IO).
 * `report.pdf`: Detailed performance analysis, scaling plots, and implementation logic.
-* `assignment.pdf`: Original problem statement and constraints.
+* `cs633_assignment.pdf`: Original problem statement and constraints.
 
 ## Compilation
 This project requires an MPI implementation (e.g., MPICH, OpenMPI).
