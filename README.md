@@ -21,7 +21,3 @@ The engine features two distinct I/O implementations to demonstrate performance 
 
 ## Compilation
 This project requires an MPI implementation (e.g., MPICH, OpenMPI).
-
-**For Sequential I/O:**
-```bash
-mpicc -o engine_seq src_seq.c
